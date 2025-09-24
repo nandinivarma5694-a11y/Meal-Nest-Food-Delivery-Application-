@@ -1,0 +1,7 @@
+{% for dish in results %}
+  <div id="dish-{{ dish.id }}" class="dish-card {% if query and query|lower in dish.name|lower or query|lower in dish.description|lower %}highlight{% endif %}">
+    <img src="{{ dish.image_url }}" alt="{{ dish.name }}">
+    <h3>{{ dish.name }}</h3>
+    <p>{{ dish.description }}</p>
+  </div>
+{% endfor %}

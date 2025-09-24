@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Orders</title>
+    <style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFF8E1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fffef6;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    text-align: center;
+    color: #FF7300;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.order-box {
+    background: #ffffff;
+    padding: 24px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.order-box p {
+    margin: 6px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: #fff3d6;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 5px;
+}
+
+.status-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    position: relative;
+    padding: 0 10px;
+}
+
+.status-line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    height: 4px;
+    background-color: #e0e0e0;
+    z-index: 0;
+    transform: translateY(-50%);
+    border-radius: 2px;
+}
+
+.status-step {
+    z-index: 1;
+    background-color: #e0e0e0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.status-active {
+    background-color: #FF7300;
+    animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.status-labels {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    font-size: 13px;
+    margin-top: 6px;
+    color: #555;
+}
+
+button {
+    background-color: #FF7300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #e86700;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 16px;
+    }
+
+    .order-box {
+        padding: 16px;
+    }
+
+    .status-labels {
+        font-size: 11px;
+    }
+
+    .status-step {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Your Orders</h2>
+
+    {% if orders %}
+        {% for order in orders %}
+        <div class="order-box">
+            <p><strong>Order ID:</strong> #{{ order.id }}</p>
+            <p><strong>Status:</strong> {{ order.status }}</p>
+            <p><strong>Items:</strong></p>
+            <pre>{{ order.items }}</pre>
+            <p><strong>Total:</strong> ₹{{ order.total }}</p>
+            <p><strong>Placed on:</strong> {{ order.created_at|date:"d M Y, h:i A" }}</p>
+
+            <div class="status-line">
+                <div class="status-step {% if order.status == 'Preparing' or order.status == 'Out for Delivery' or order.status == 'Delivered' %}status-active{% endif %}">1</div>
+                <div class="status-step {% if order.status == 'Out for Delivery' or order.status == 'Delivered' %}status-active{% endif %}">2</div>
+                <div class="status-step {% if order.status == 'Delivered' %}status-active{% endif %}">3</div>
+            </div>
+
+            <div class="status-labels">
+                <span>Preparing</span>
+                <span>Out for Delivery</span>
+                <span>Delivered</span>
+            </div>
+
+            <form method="POST" action="{% url 'feedback' %}">
+  {% csrf_token %}
+  <button type="submit">Ok</button>
+</form>
+
+
+        </div>
+        {% endfor %}
+    {% else %}
+        <p style="text-align:center;">You have no orders yet.</p>
+    {% endif %}
+</div>
+
+</body>
+</html> 

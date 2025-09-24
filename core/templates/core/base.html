@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'core/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/food.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/footer.css' %}">
+    <script src="{% static 'core/js/script.js' %}"></script>
+    <title>{% block title %} Document {% endblock %}</title>
+</head>
+<body>
+   
+    <header class="w-full bg-orange-100">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+        <a href="{% url 'home' %}" class="text-4xl font-bold text-orange-500" style="font-family: 'Dansing Script', cursive;">MealNest </a>
+        {% block navbar %}
+    {% include "core/component/navbar.html" %}
+    {% endblock navbar %}
+       <h1 style="
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6a00;
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+     🍕 Welcome,  {{ name }} 
+</h1>
+
+        <div class="flex space-x-4 items-center">
+          
+<a href="{% url 'view_cart' %}" class="cart-icon">
+    <img src="{% static 'core/images/trolley.png' %}" alt="Cart" width="40px">
+    <p style="margin:10px">Cart</p>
+</a>
+<style>
+  .cart-icon {
+    display:flex;
+    font-size: 20 px;
+    text-decoration: none;
+    color: #ff8000;
+    padding: 8px;
+    transition: transform 0.2s ease, color 0.3s ease;
+  }
+
+  .cart-icon:hover {
+    transform: scale(1.2);
+    color: #e67300;
+  }
+</style>
+        <div class="relative">
+    </div></a>
+    </header>
+     {% block hero %}
+     {% endblock hero %}
+      {% block maincontent %}{% endblock maincontent %}
+       {% block footer %}{% endblock footer %}
+    
+
+       <div class="footers">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <footer class="mega-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h2>MealNest</h2>
+        <p>MealNest is your one-stop hub for recipes, cooking tips, and food inspiration. Taste the tradition, spice it with innovation!</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><button onclick="showImage(this)" data-src="{% static 'core/images/khana_khazana_restaurent_menu.png' %}">
+  Menu
+</button>
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeImage()">&times;</span>
+  <img class="modal-content" id="popupImage" alt="Delicious Paneer">
+</div></li>
+          <li><a href="{% url 'food' %}">Recipes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="{% url 'about' %}">Privacy Policy</a></li>
+          <li><a href="{% url 'help' %}">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fas fa-envelope"></i> hello@MealNest.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> 18 Tank House Lane, Toronto</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Help & Support</h3>
+        <p><i class="fas fa-headset"></i> support@MealNest.com</p>
+        <p><i class="fas fa-question-circle"></i> <a href="#">FAQs</a></p>
+        <p><i class="fas fa-comment-alt"></i> <a href="{% url 'feedback' %}">Feedback</a></p>
+        
+        <h3>Newsletter</h3>
+        <form class="newsletter">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 MealNest. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

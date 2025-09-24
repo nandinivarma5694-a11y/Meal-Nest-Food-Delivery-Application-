@@ -1,0 +1,15 @@
+{% for dish in dishes %}
+  <div class="dish-card" style="border: 1px solid #ddd; padding: 15px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+    <img src="{{ dish.image.url }}" alt="{{ dish.name }}" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+    <h3>{{ dish.name }}</h3>
+    <p>{{ dish.description }}</p>
+    <p style="color: #e65100; font-weight: bold;">Price: ₹{{ dish.price }}</p>
+    <form method="POST" action="{% url 'add_to_cart' dish.id %}">
+      {% csrf_token %}
+      <input type="hidden" name="item_id" value="{{ dish.id }}">
+      <button type="submit" style="background-color: #e65100; color: white; padding: 10px; border: none; border-radius: 6px; width: 100%;">Add to Cart</button>
+    </form>
+  </div>
+{% empty %}
+  <p>No dishes found.</p>
+{% endfor %}

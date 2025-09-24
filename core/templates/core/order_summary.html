@@ -1,0 +1,70 @@
+{% extends 'core/base.html' %}
+{% block title %}Order Summary{% endblock %}
+
+{% block maincontent %}
+<div class="container" style="max-width: 700px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  
+  <h2 style="text-align:center; color:#FF7300;">🎉 Order Placed Successfully!</h2>
+  <p style="text-align:center; margin-bottom: 25px;">
+    Order ID: <strong>#KHZ{{ order.id }}</strong>
+  </p>
+
+  {% if messages %}
+  <ul style="color: rgba(254, 0, 0, 0.671); text-align:center;">
+      {% for message in messages %}
+          <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+
+  <!-- Customer Info -->
+  <div class="info-section" style="margin-bottom: 25px;">
+    <h4>👤 Customer Info</h4>
+    <div class="info-box" style="background: #fdf5e6; padding: 15px; border-radius: 8px;">
+      <p><strong>Name:</strong> {{ data.name }}</p>
+      <p><strong>Phone:</strong> {{ data.phone }}</p>
+      <p><strong>Email:</strong> {{ data.email }}</p>
+    </div>
+  </div>
+
+  <!-- Address -->
+  <div class="info-section" style="margin-bottom: 25px;">
+    <h4>📍 Address</h4>
+    <div class="info-box" style="background: #fdf5e6; padding: 15px; border-radius: 8px;">
+      <p>{{ data.address }}, {{ data.city }} - {{ data.pincode }}</p>
+    </div>
+  </div>
+
+  <!-- Payment Method -->
+  <div class="info-section" style="margin-bottom: 25px;">
+    <h4>💳 Payment Method</h4>
+    <div class="info-box" style="background: #fdf5e6; padding: 15px; border-radius: 8px;">
+      <p>{{ data.payment|title }}</p>
+    </div>
+  </div>
+
+  <!-- Order Summary -->
+  <h4>🧾 Order Summary</h4>
+<div class="info-box" style="background: #fdf5e6; padding: 15px; border-radius: 8px;">
+  <pre style="white-space: pre-wrap; font-family: inherit; font-size: 14px; color: #333;">{{ order.items }}</pre>
+ <p><strong>Total:</strong> ₹{{ order.total }}</p>
+  <p><strong>Status:</strong> {{ order.status }}</p>
+</div>
+
+
+  <!-- Buttons -->
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="{% url 'food' %}">
+      <button style="padding: 12px 24px; background-color: #FF7300; color: white; border: none; border-radius: 6px; font-size: 16px; margin-right: 10px; cursor: pointer;">
+        Food Item
+      </button>
+    </a>
+    <a href="{% url 'track_orders' %}">
+      <button style="padding: 12px 24px; background-color: #FF7300; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+        Track Orders
+      </button>
+    </a>
+  </div>
+
+</div>
+{% endblock maincontent %}

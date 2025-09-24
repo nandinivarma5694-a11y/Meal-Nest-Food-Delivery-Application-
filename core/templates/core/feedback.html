@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Feedback</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff5e6; /* light orange background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .feedback-container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 400px;
+    }
+
+    h2 {
+      color: #ff6600; /* orange title */
+      margin-bottom: 20px;
+    }
+
+    .stars {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .star {
+      font-size: 40px;
+      color: #ccc;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .star:hover,
+    .star.selected {
+      color: #ff6600; /* orange stars */
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      resize: none;
+      font-size: 14px;
+    }
+
+    button {
+      background: #ff6600;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #e65c00;
+    }
+  </style>
+</head>
+<body>
+  <div class="feedback-container">
+    <h2>Give Your Feedback</h2>
+    
+    <!-- Stars -->
+    <div class="stars" id="starContainer">
+      <span class="star" data-value="1">&#9733;</span>
+      <span class="star" data-value="2">&#9733;</span>
+      <span class="star" data-value="3">&#9733;</span>
+      <span class="star" data-value="4">&#9733;</span>
+      <span class="star" data-value="5">&#9733;</span>
+    </div>
+
+    <!-- Feedback text -->
+    <form method="POST" action="{% url 'food' %}">
+      {% csrf_token %}
+      <input type="hidden" name="rating" id="rating" value="0">
+      <textarea name="comment" rows="4" placeholder="Write your feedback..."></textarea>
+      <br>
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+  <script>
+    const stars = document.querySelectorAll(".star");
+    const ratingInput = document.getElementById("rating");
+
+    stars.forEach(star => {
+      star.addEventListener("click", function() {
+        let rating = this.getAttribute("data-value");
+        ratingInput.value = rating;
+
+        stars.forEach(s => s.classList.remove("selected"));
+        for (let i = 0; i < rating; i++) {
+          stars[i].classList.add("selected");
+        }
+      });
+    });
+  </script>
+</body>
+</html>

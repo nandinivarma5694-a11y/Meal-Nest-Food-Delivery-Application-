@@ -1,0 +1,49 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Customer Details - Khana Khazana{% endblock %}
+
+{% block maincontent %}
+<div class="container">
+  <h2>Customer Information</h2>
+
+  <form action="{% url 'place_order' %}" method="POST">
+    {% csrf_token %}
+    
+    <!-- Full Name -->
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+    <!-- Email -->
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email">
+
+    <!-- Address -->
+    <label for="address">Full Address</label>
+    <textarea id="address" name="address" rows="3" required></textarea>
+
+    <!-- City -->
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" required>
+
+    <!-- Pincode -->
+    <label for="pincode">Pincode</label>
+    <input type="text" id="pincode" name="pincode" pattern="[0-9]{6}" required>
+
+    <!-- Payment Method -->
+    <label for="payment">Payment Method</label>
+    <select id="payment" name="payment" required>
+      <option value="">Select</option>
+      <option value="cod">Cash on Delivery</option>
+      <option value="upi">UPI</option>
+      <option value="card">Credit/Debit Card</option>
+    </select>
+
+    <!-- Submit -->
+    <button type="submit">Place Order</button>
+  </form>
+</div>
+{% endblock %}

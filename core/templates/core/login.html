@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Khana Khazana</title>
+  <link rel="stylesheet" href="{% static 'core/css/login.css' %}">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Khana Khazana</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'food' %}">Food</a></li>
+          <li><a href="{% url 'login' %}">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Login Form -->
+  <main class="main-content">
+    <div class="form-box">
+      <h2>Login</h2>
+
+      {% if messages %}
+        <ul class="messages">
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button type="submit">Login</button>
+      </form>
+
+      <p class="signup-text">
+        Don't have an account?
+        <a href="{% url 'signup' %}">Sign Up</a>
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Khana Khazana. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

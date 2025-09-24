@@ -1,0 +1,1904 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-08-26T19:39:03.968Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Margherita Pizza",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-08-26T19:47:06.346Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Palak Paneer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-08-26T19:49:13.569Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Khamand Dhokla",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-08-26T19:49:38.992Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Khamand Dhokla",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-08-26T19:50:24.468Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Idli Sambar",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-08-26T19:53:07.849Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Spaghetti Carbonara",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-08-26T19:53:46.274Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Chicken Tikka Masala",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-26T19:54:43.307Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Sushi Platter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-26T19:55:55.866Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Beef Burger",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-26T19:57:52.944Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Sushi Platter",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-26T19:59:21.215Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Pad Thai",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-26T20:00:17.913Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Chocolate Cake",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-26T20:01:25.549Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Greek Salad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-26T20:02:13.406Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Fish and Chips",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-27T08:21:57.109Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Paneer Lababdar",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-27T08:23:23.957Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Dum Aloo Kashmiri",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-27T08:24:11.875Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Malai Kofta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-27T08:24:40.659Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Pizza",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-27T08:26:43.133Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Veg Manchurian Dry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-27T08:28:06.779Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Momos (Fried/Steamed)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "Fried Rice",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "Rasgulla",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "Spring Rolls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "Gulab Jamun",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Veggie Pizza",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Butter Chicken",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Cheese Burger",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Chocolate Lava Cake",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-08-31T10:45:16.886Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Paneer Butter Masala",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-08-31T10:48:43.926Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "Cheese Burger",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-08-31T10:50:05.400Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "French Fries",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-08-31T10:51:07.748Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "30",
+    "object_repr": "Spring Rolls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-08-31T10:52:00.939Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "31",
+    "object_repr": "Masala Dosa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-08-31T10:52:45.468Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "32",
+    "object_repr": "Uttapam",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-08-31T10:53:49.431Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "33",
+    "object_repr": "Rasgulla",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-08-31T10:59:21.162Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "34",
+    "object_repr": "Chocolate Lava Cake",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-08-31T11:01:10.715Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "35",
+    "object_repr": "Margherita Pizza",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-08-31T11:03:29.600Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "36",
+    "object_repr": "Lasagna",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-08-31T11:04:24.707Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "37",
+    "object_repr": "Tiramisu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-08-31T11:05:05.676Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "38",
+    "object_repr": "Tacos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-08-31T11:05:57.425Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "39",
+    "object_repr": "Quesadilla",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-08-31T11:10:42.932Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "40",
+    "object_repr": "Manchurian",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-08-31T11:11:24.499Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "41",
+    "object_repr": "Chow Mein",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-09-01T08:15:44.224Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "41",
+    "object_repr": "Chow Mein",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "41",
+    "object_repr": "Order #41 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "40",
+    "object_repr": "Order #40 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "39",
+    "object_repr": "Order #39 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "38",
+    "object_repr": "Order #38 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "37",
+    "object_repr": "Order #37 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "Order #36 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "35",
+    "object_repr": "Order #35 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "34",
+    "object_repr": "Order #34 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "33",
+    "object_repr": "Order #33 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "32",
+    "object_repr": "Order #32 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "31",
+    "object_repr": "Order #31 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "30",
+    "object_repr": "Order #30 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "29",
+    "object_repr": "Order #29 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "28",
+    "object_repr": "Order #28 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "27",
+    "object_repr": "Order #27 by chetna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "26",
+    "object_repr": "Order #26 by pooja",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "25",
+    "object_repr": "Order #25 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "Order #24 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.087Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "Order #23 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "22",
+    "object_repr": "Order #22 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "Order #21 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "Order #20 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "Order #19 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "Order #18 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "Order #17 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "Order #16 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "Order #15 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "Order #14 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Order #13 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Order #12 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Order #11 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Order #10 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Order #9 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.088Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Order #8 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.089Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Order #7 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.089Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Order #6 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.089Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Order #5 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.089Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Order #4 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.089Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Order #3 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.089Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Order #2 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-09-01T08:20:09.089Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Order #1 by Nandini",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-09-01T09:00:35.739Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "krishna@123",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-09-01T09:02:27.580Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "krishna@123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-09-01T09:03:52.693Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "krishna@123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-09-02T09:44:48.993Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Margherita Pizza",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-09-02T09:44:55.217Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Palak Paneer",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-09-02T09:45:00.061Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Khamand Dhokla",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-09-02T09:45:08.007Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Idli Sambar",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-09-02T09:45:24.123Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Spaghetti Carbonara",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-09-02T09:45:30.926Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Chicken Tikka Masala",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-09-02T09:45:57.207Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Beef Burger",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-09-02T09:46:14.068Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Pad Thai",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-09-02T09:46:25.044Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Chocolate Cake",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-09-02T09:46:46.773Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Pizza",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-09-02T09:47:08.130Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Fish and Chips",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-09-02T09:47:46.296Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Momos (Fried/Steamed)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-09-02T09:48:04.293Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "Cheese Burger",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-09-02T09:49:32.298Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Pizza",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$MJgJ0Hultzw2pgGTJnjwXO$gDZxwHNQvSSAhJqmHQeJ9+k6AzfXiJYBDqmsIEdhWYE=",
+    "last_login": "2025-09-02T09:44:20.049Z",
+    "is_superuser": true,
+    "username": "hp",
+    "first_name": "",
+    "last_name": "",
+    "email": "nandini3@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-26T19:31:24.837Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$mSLQCPHteSTXRWCCaZiukP$QTIY3R6xt4MH6hzcdlMNIIUxnKvtYCdlFReVH5WDtpU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "krishna@123",
+    "first_name": "Nandini",
+    "last_name": "Verma",
+    "email": "example@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-09-01T09:00:34Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h0hylru78demgzx8xcvqufzo6gqg13ad",
+  "fields": {
+    "session_data": ".eJxVkEtuwyAQhq-CWEeWcYyNs6q6b69gDQwEGhsigytFUe7eoUqrVmIz_-Nj4M5n2Iuf92y3OSA_ccEPfzUN5mJjNfAD4jk1JsWyBd3USPN0c_OW0C6vz-w_gIfsqS2V1uNEp5smp1D3o5N6ki0qO4zo2h4G0R6doYRTQqBqZeekUyCPRnS9Ieg3LsJqCfcOEUMMP2rdXBy42XNJK80IBfjpzp9p4_fCLsAWajHjEzIP7GaB6lefYo2ocZB9J-QwkmhXCAuJsd5itxVezlWht6_kAuJmcyZf-5S3SjGh3H5nxj7DssDZVnyIhr6GvF62QlT4FW6rjaWulZA_Hl-St30D:1urGbt:sZAtS2xJ4ndQT8O4CRg3p-DzPuwtaVkMkI6IyU5OnYg",
+    "expire_date": "2025-09-10T13:54:45.703Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h40jdgj28cbo8o96c1bcve9mmpf9ymk0",
+  "fields": {
+    "session_data": ".eJxVjsFuwyAQRH8l2rNlGcfY2Keo936DtbBg0xqIDK4URfn3gmpVisRheTM7O084ot5nj07DBGrVySNUf9ASTLwCdcQUXP4TJoTpCad5y777GnyZxdDzrmW8HzLUDu2WoUdPVu8Ob0shtQouq0i06xizXg4pmx55lGuIO14uP3bbcNEl2XoVqGR3vGGs5N7x4bRPpWcgeFUw45HW-b8rMHhjEtW39kWgL_RLyAV82q2si6U-1Vh_5jPbx-l9C1gxrnmbCymHMb92HI0g2Q2Gy5E3JHQ_kGk67FlzNSo7jGCMRMNbw41AflWs7RS8fgFcbnKi:1uszns:IWl79YMPSpWVgg-bkZPu7Kr8ESunBTf9ifuRXnApm7w",
+    "expire_date": "2025-09-15T08:22:16.446Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xikkywf2fvfaszse5ls4czz0s71faflq",
+  "fields": {
+    "session_data": ".eJxVj81qwzAQhF8l6ByM5Vi2nFPpvX0Fs9JKtlr9BEsuhJB376qYQkCH3flGw86D7dlsc4Rg2JV9QkQXHTuzGfayzn_MIRH-qinQ3yZWgF8Ql9ToFMvmVFMtzUFz85HQ-PfD-xKwQl7pt5BKjRO9bpqsRNWPVqhJtCjNMKJtexh4e7GaHFZyjrIVnRVWgrho3vWaQv9vHM5M77mkQDtCAXZ9sKOXJ99tTbHOchxE33ExjCSaAM6TGGtxswV4W6pCdQJRQNxMzsSBNu3KnUa1przB6fTjvIfF1GQXNRUl1ouW85p7g3swsZBEhD2fvxB0cvE:1utNkM:VxZ9vDSXnBVABWGeCuik_DPl45MX8UwRnCd6_PSngFI",
+    "expire_date": "2025-09-16T09:56:14.259Z"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 1,
+  "fields": {
+    "user": null,
+    "name": "Nandini",
+    "email": "nandiniverma@gmail.com",
+    "password": "pbkdf2_sha256$1000000$TD77p3FOmy51WwTBxJOLap$0u8qgPGcAiloYGtITu0nNbKNWRHTjof/t5EU174iu8E=",
+    "city": "Mumbai"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 2,
+  "fields": {
+    "user": null,
+    "name": "Pooja",
+    "email": "pooja347@gmail.com",
+    "password": "pbkdf2_sha256$1000000$bXtLuCZJB8fZi1UuzNHzdQ$a2kbriDJ2rBEtJ2HVoAbogbtO3mxJZjlfochPlQLHnY=",
+    "city": "Mumbai"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 3,
+  "fields": {
+    "user": null,
+    "name": "Nandini",
+    "email": "example@gmail.com",
+    "password": "pbkdf2_sha256$1000000$Cb4aZxtlMuV1OcnuNdFcKd$ypPxJTJ7JdGXuG8/naCednzWn1AUxyPs4VuQL6xV4nY=",
+    "city": "Mumbai"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 4,
+  "fields": {
+    "user": null,
+    "name": "pooja",
+    "email": "pooja@gmail.com",
+    "password": "pbkdf2_sha256$1000000$26HjNmWcbQ56dJIhYuqwO6$Kn8bFbwM7OisbEGbJerODdBuzUS+mD3YMVXXgpJ1u9o=",
+    "city": "Mumbai"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 5,
+  "fields": {
+    "user": null,
+    "name": "chetna",
+    "email": "bhas@gmail.com",
+    "password": "pbkdf2_sha256$1000000$UOCihNBgzljlsQ81x6CS1y$nZILqwereOxooKrnmUdAgFLPAg9ARxLkPEUuayL5v+g=",
+    "city": "Mumbai"
+  }
+},
+{
+  "model": "core.profile",
+  "pk": 6,
+  "fields": {
+    "user": null,
+    "name": "Nandini",
+    "email": "nandini1111@gmail.com",
+    "password": "pbkdf2_sha256$1000000$TaI0XGdcNhsutATo3btmND$OvpVS/CD9YJOHQYROEYMncpM6Uj5ypagu1/ol6dW7eI=",
+    "city": "Mumbai"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 1,
+  "fields": {
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with fresh mozzarella, tomatoes, and basil.",
+    "price": "108.99",
+    "image": "item_images/Makerini_pizza.webp",
+    "category": "Chinese"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 2,
+  "fields": {
+    "name": "Palak Paneer",
+    "description": "The cuisine was authentic and full of flavor.",
+    "price": "250.00",
+    "image": "item_images/popularpaneer.jpg",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 3,
+  "fields": {
+    "name": "Khamand Dhokla",
+    "description": "Meal tasted freshly cooked and satisfying.",
+    "price": "80.00",
+    "image": "item_images/popularsalmon.jpg",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 4,
+  "fields": {
+    "name": "Idli Sambar",
+    "description": "Dish was crafted with great care.",
+    "price": "150.00",
+    "image": "item_images/popularchicken.jpg",
+    "category": "South Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 5,
+  "fields": {
+    "name": "Spaghetti Carbonara",
+    "description": "Creamy pasta with pancetta, egg, and cheese",
+    "price": "250.00",
+    "image": "item_images/Carbonara_6a.webp",
+    "category": "Mexican"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 6,
+  "fields": {
+    "name": "Chicken Tikka Masala",
+    "description": "Grilled chicken chunks in spiced curry sauce",
+    "price": "350.00",
+    "image": "item_images/download.jpeg",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 8,
+  "fields": {
+    "name": "Beef Burger",
+    "description": "Juicy beef patty with lettuce, tomato, cheese",
+    "price": "400.00",
+    "image": "item_images/OIP_1.webp",
+    "category": "Italian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 9,
+  "fields": {
+    "name": "Pad Thai",
+    "description": "Stir-fried rice noodles with shrimp, tofu",
+    "price": "300.00",
+    "image": "item_images/OIP_2.webp",
+    "category": "South Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 10,
+  "fields": {
+    "name": "Chocolate Cake",
+    "description": "Rich and moist chocolate layered cake",
+    "price": "550.00",
+    "image": "item_images/OIP_3.webp",
+    "category": "Dessert"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 11,
+  "fields": {
+    "name": "Greek Salad",
+    "description": "Fresh salad with cucumber, tomato, olives",
+    "price": "200.00",
+    "image": "item_images/download.webp",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 12,
+  "fields": {
+    "name": "Fish and Chips",
+    "description": "Crispy battered fish with fries and tartar sauce",
+    "price": "550.00",
+    "image": "item_images/OIP_4.webp",
+    "category": "Mexican"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 13,
+  "fields": {
+    "name": "Paneer Lababdar",
+    "description": "Creamy, buttery, slightly tangy tomato-based gravy with soft paneer cubes.",
+    "price": "180.00",
+    "image": "item_images/download_1.webp",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 14,
+  "fields": {
+    "name": "Dum Aloo Kashmiri",
+    "description": "Baby potatoes slow-cooked in a rich, yogurt-based Kashmiri gravy with a burst of fennel and dry ginger.",
+    "price": "160.00",
+    "image": "item_images/OIP_6.webp",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 15,
+  "fields": {
+    "name": "Malai Kofta",
+    "description": "Crispy paneer-potato balls dipped in smooth, slightly sweet, buttery gravy – pure indulgence!",
+    "price": "200.00",
+    "image": "item_images/OIP_7.webp",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 16,
+  "fields": {
+    "name": "Pizza",
+    "description": "Cheez pizza",
+    "price": "250.00",
+    "image": "item_images/OIP_5.webp",
+    "category": "Fast Food"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 17,
+  "fields": {
+    "name": "Veg Manchurian Dry",
+    "description": "Fried veggie balls in hot garlic sauce, a true street food classic.",
+    "price": "140.00",
+    "image": "item_images/OIP_8.webp",
+    "category": "Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 18,
+  "fields": {
+    "name": "Momos (Fried/Steamed)",
+    "description": "Dumplings filled with veggies, served with spicy red chutney.",
+    "price": "100.00",
+    "image": "item_images/OIP_9.webp",
+    "category": "Chinese"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 28,
+  "fields": {
+    "name": "Cheese Burger",
+    "description": "Juicy beef patty with cheese, lettuce, tomato.",
+    "price": "150.00",
+    "image": "item_images/OIP.webp",
+    "category": "Fast Food"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 29,
+  "fields": {
+    "name": "French Fries",
+    "description": "Crispy golden potato fries.",
+    "price": "70.00",
+    "image": "item_images/download_2.webp",
+    "category": "Fast Food"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 30,
+  "fields": {
+    "name": "Spring Rolls",
+    "description": "Crispy rolls stuffed with veggies.",
+    "price": "120.00",
+    "image": "item_images/OIP_10.webp",
+    "category": "Chinese"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 31,
+  "fields": {
+    "name": "Masala Dosa",
+    "description": "Crispy crepe filled with spiced potato.",
+    "price": "150.00",
+    "image": "item_images/OIP_11.webp",
+    "category": "South Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 32,
+  "fields": {
+    "name": "Uttapam",
+    "description": "Thick pancake with veggies on top.",
+    "price": "130.00",
+    "image": "item_images/OIP_12.webp",
+    "category": "South Indian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 33,
+  "fields": {
+    "name": "Rasgulla",
+    "description": "Spongy cheese balls in sugar syrup.",
+    "price": "130.00",
+    "image": "item_images/OIP_13.webp",
+    "category": "Dessert"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 34,
+  "fields": {
+    "name": "Chocolate Lava Cake",
+    "description": "Warm cake with molten chocolate.",
+    "price": "120.00",
+    "image": "item_images/download_3.webp",
+    "category": "Dessert"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 35,
+  "fields": {
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomato, mozzarella, and fresh basil.",
+    "price": "120.00",
+    "image": "item_images/download_4.webp",
+    "category": "Italian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 36,
+  "fields": {
+    "name": "Lasagna",
+    "description": "Layered pasta with meat sauce, cheese, and béchamel.",
+    "price": "350.00",
+    "image": "item_images/OIP_14.webp",
+    "category": "Italian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 37,
+  "fields": {
+    "name": "Tiramisu",
+    "description": "Coffee-flavored Italian dessert with mascarpone.",
+    "price": "200.00",
+    "image": "item_images/download_5.webp",
+    "category": "Italian"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 38,
+  "fields": {
+    "name": "Tacos",
+    "description": "Soft corn tortillas filled with meat, veggies, and salsa.",
+    "price": "300.00",
+    "image": "item_images/OIP_15.webp",
+    "category": "Mexican"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 39,
+  "fields": {
+    "name": "Quesadilla",
+    "description": "Grilled tortilla with melted cheese and fillings.",
+    "price": "180.00",
+    "image": "item_images/0e56ab38542c762f226df9866314520e2fac6f6a.webp",
+    "category": "Mexican"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 40,
+  "fields": {
+    "name": "Manchurian",
+    "description": "Veg balls in tangy sauce.",
+    "price": "150.00",
+    "image": "item_images/OIP_16.webp",
+    "category": "Chinese"
+  }
+},
+{
+  "model": "core.item",
+  "pk": 41,
+  "fields": {
+    "name": "Chow Mein",
+    "description": "Stir-fried noodles with veggies.",
+    "price": "170.00",
+    "image": "item_images/OIP_17.webp",
+    "category": "Chinese"
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "item": 1,
+    "quantity": 6
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 6,
+  "fields": {
+    "user": 2,
+    "item": 2,
+    "quantity": 2
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "item": 3,
+    "quantity": 2
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 19,
+  "fields": {
+    "user": 3,
+    "item": 3,
+    "quantity": 1
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 20,
+  "fields": {
+    "user": 3,
+    "item": 1,
+    "quantity": 1
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 21,
+  "fields": {
+    "user": 3,
+    "item": 2,
+    "quantity": 1
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 22,
+  "fields": {
+    "user": 4,
+    "item": 2,
+    "quantity": 1
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 31,
+  "fields": {
+    "user": 5,
+    "item": 3,
+    "quantity": 1
+  }
+},
+{
+  "model": "core.cart",
+  "pk": 32,
+  "fields": {
+    "user": 6,
+    "item": 5,
+    "quantity": 1
+  }
+},
+{
+  "model": "core.order",
+  "pk": 42,
+  "fields": {
+    "user": 5,
+    "customer_name": "l",
+    "address": "a, bhosra  village - 450117",
+    "phone": "8765421567",
+    "items": "Khamand Dhokla x1",
+    "total": "80.00",
+    "status": "Preparing",
+    "created_at": "2025-09-01T08:22:16.479Z"
+  }
+},
+{
+  "model": "core.order",
+  "pk": 43,
+  "fields": {
+    "user": 6,
+    "customer_name": "l",
+    "address": "a, bhosra  village - 450117",
+    "phone": "8765421567",
+    "items": "Spaghetti Carbonara x1",
+    "total": "250.00",
+    "status": "Preparing",
+    "created_at": "2025-09-02T09:56:14.290Z"
+  }
+}
+]
